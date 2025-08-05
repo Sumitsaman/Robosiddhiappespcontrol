@@ -1,0 +1,33 @@
+name: appespcontrol
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/led.jpg
+    - assets/servo.png
+    - assets/motor.png
+    - assets/robosiddhi512.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/robosiddhi512.png"
